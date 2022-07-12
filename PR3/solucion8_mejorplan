@@ -1,0 +1,55 @@
+
+ff: parsing domain file
+domain 'DOMINIOSTARCRAFT_EJ8' defined
+ ... done.
+ff: parsing problem file
+problem 'EJERCICIO8' defined
+ ... done.
+
+
+metric established (normalized to minimize): ((1.00*[RF0](COSTETIEMPO)) - () + 0.00)
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is  best-first on 1*g(s) + 1*h(s) where
+    metric is ((1.00*[RF0](COSTETIEMPO)) - () + 0.00)
+
+advancing to distance:   30
+                         28
+                         26
+                         25
+                         23
+                         22
+                         21
+                         20
+                         19
+                         18
+                         17
+                         16
+                         15
+                         14
+                         13
+                         12
+                         11
+                         10
+                          9
+                          8
+                          7
+                          6
+                          5
+                          4
+                          3
+                          2
+
+best first search space empty! problem proven unsolvable.
+
+
+
+time spent:    0.00 seconds instantiating 168 easy, 422 hard action templates
+               0.00 seconds reachability analysis, yielding 238 facts and 539 actions
+               0.00 seconds creating final representation with 210 relevant facts, 7 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+            1850.15 seconds searching, evaluating 11677526 states, to a max depth of 0
+            1850.15 seconds total time
+

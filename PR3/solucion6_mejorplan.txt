@@ -1,0 +1,51 @@
+
+ff: parsing domain file
+domain 'DOMINIOSTARCRAFT_EJ6' defined
+ ... done.
+ff: parsing problem file
+problem 'EJERCICIO6' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is  best-first on 1*g(s) + 1*h(s) where
+    metric is  plan length
+
+advancing to distance:   24
+                         22
+                         21
+                         19
+                         18
+                         17
+                         16
+                         15
+                         14
+                         13
+                         12
+                         11
+                         10
+                          9
+                          8
+                          7
+                          6
+                          5
+                          4
+                          3
+                          2
+                          1
+
+best first search space empty! problem proven unsolvable.
+
+
+
+time spent:    0.00 seconds instantiating 169 easy, 1379 hard action templates
+               0.00 seconds reachability analysis, yielding 268 facts and 1425 actions
+               0.00 seconds creating final representation with 239 relevant facts, 2 relevant fluents
+               0.00 seconds computing LNF
+               0.01 seconds building connectivity graph
+            2518.18 seconds searching, evaluating 3491885 states, to a max depth of 0
+            2518.19 seconds total time
+
